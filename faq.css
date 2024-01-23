@@ -1,0 +1,71 @@
+html{
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+body{
+    background-image: url("background-pattern-desktop.svg");
+    background-size: cover;
+    height: 35vh;
+    background-repeat: no-repeat;
+}
+.second-body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 370px;
+    background-color: white;
+    border-radius: 20px;
+}
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.inner{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin-bottom: 10px;
+}
+.headflex{
+    display: flex;
+    align-items: center;
+}
+.flexxdiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.flexxdiv{
+    padding-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+h1{
+    font-weight: 700;
+}
+h6{
+    font-weight: 600;
+    font-size: 12px;
+}
+.flexdiv{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img{
+    height: 200px;
+    width: 200px;
+}
+p{
+    color: gray;
+    font-size: 11px;
+}
+
+    
